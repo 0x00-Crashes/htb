@@ -1,5 +1,5 @@
 #!/bin/bash
-
+i=0
 while true; do
 	zipArchives=`ls -l | grep zip | wc -l`
 	if [[ $zipArchives -eq 0 ]]; then
